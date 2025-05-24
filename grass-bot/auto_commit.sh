@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Git 사용자 정보 명시
+git config --global user.name "Jimin0304"
+git config --global user.email "pjws0304@naver.com"
+
 # 현재 시간 기록용 변수
 export GIT_SSH_COMMAND="ssh -i /home/ubuntu/.ssh/id_rsa -o IdentitiesOnly=yes"
 NOW=$(date '+%Y-%m-%d %H:%M:%S')
