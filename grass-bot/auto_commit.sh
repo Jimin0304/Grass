@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # 현재 시간 기록용 변수
+export GIT_SSH_COMMAND="ssh -i /home/ubuntu/.ssh/id_rsa -o IdentitiesOnly=yes"
 NOW=$(date '+%Y-%m-%d %H:%M:%S')
 LOGFILE="/home/ubuntu/homework/grass-bot/commit_log.txt"
 
