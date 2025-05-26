@@ -4,8 +4,9 @@
 git config --global user.name "Jimin0304"
 git config --global user.email "pjws0304@naver.com"
 
-# 현재 시간 기록용 변수
 export GIT_SSH_COMMAND="ssh -i /home/ubuntu/.ssh/id_rsa -o IdentitiesOnly=yes"
+
+# 현재 시간 기록용 변수
 NOW=$(date '+%Y-%m-%d %H:%M:%S')
 LOGFILE="/home/ubuntu/homework/grass-bot/commit_log.txt"
 
